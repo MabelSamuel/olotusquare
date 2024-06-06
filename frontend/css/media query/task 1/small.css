@@ -1,0 +1,20 @@
+.parent{
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+
+.box1, .box5{
+    grid-column: 1/-1;
+}
+
+.box2{
+    display: none;
+}
+
+.box3{
+    order: 2;
+}
+
+.box4{
+    display: none;
+}

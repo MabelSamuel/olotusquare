@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+.parent {
+    width: 50%;
+    margin: 10% 0;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+/* Comma-separated selectors: the comma is used to group multiple selectors (.section-2 and .section-3) that share the same styles. This means the styles will be applied to both classes. This is a way to avoid repetition and make the CSS more concise.
+
+Descendant selectors: there is no comma because it is using a descendant selector. This selector applies styles to <img> elements that are within .section-1 elements. It does not need to target multiple separate selectors but rather a specific relationship between elements. */
+
+.section-1 img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+ 
+.section-2, .section-3{
+    padding-bottom: 20px;
+    border-bottom: hsl(30, 18%, 87%) solid 1px;
+}
+
+h1, h2, h4{
+    font-family: inherit;
+}
+
+p, li {
+    font-family: inherit;
+    font-size: 16px;
+    text-align: justify;
+    color: hsl(30, 10%, 34%);
+}
+   
+h2, h4 {
+    color: #7c432d;
+}
+
+b {
+    color: hsl(30, 10%, 34%);
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+/*  Pseudo-Classes: Target elements based on their state or position (e.g., :hover, :focus).
+Pseudo-Elements: Target specific parts of an element (e.g., ::before, ::first-line).*/
+li::marker {
+    color: #6c5245;
+}
+
+ol, ul {
+    padding-left: 25px;
+}
+
+h2 {
+       font-size: 35px;
+       font-weight: 200;
+       padding: 15px 0 10px 0;
+}
+   
+.name, .value {
+       font-family: inherit;
+}
+   
+/* the double colon (::) is used to represent a pseudo-element, while a single colon (:) is used for pseudo-classes */
+.instructions li::marker {
+       font-weight: 600;
+}
+   
+h1 {
+       font-size: 45px;
+       font-weight: 100;
+       margin-bottom: 20px;
+}
+   
+   
+.preparation {
+       background-color: hsl(330, 100%, 98%);
+       padding: 1% 2% 1% 3%;
+       border-radius: 20px;
+}
+   
+.preparation h4 {
+       color: #925471;
+       font-size: 20px;
+       font-family: inherit;
+       margin-bottom: 20px;
+}
+   
+.section-4 {
+       display: flex;
+       flex-direction: column;
+}
+   
+.section-4:last-child {
+       border: none;
+   
+}
+   
+.section-4 h2 {
+       margin-bottom: 0;
+}
+   
+.name {
+       color: hsl(30, 10%, 34%);
+}
+   
+.value {
+       color: #7c432d;
+       font-weight: 600;
+}
+   
+.table {
+       border-collapse: collapse; /* This value collapses adjacent table cell borders into a single border. This is often used to make tables look more compact and cleaner. */
+}
+   
+.table tr td{
+       padding: 10px;
+}
+
+.border{
+       border-bottom: hsl(30, 18%, 87%) solid 1px;
+}
+.no-border{
+       border-bottom: hsl(30, 18%, 87%) ;
+}

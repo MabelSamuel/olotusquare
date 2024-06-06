@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(7, 70px);
+    grid-template-rows: repeat(8, 70px);
+    justify-content: center;
+    align-items: center;
+}
+
+.parent > div:nth-child(even){
+    background-color: burlywood;
+}
+
+.box{
+    height: 70px;
+    border: 1px solid black;
+}

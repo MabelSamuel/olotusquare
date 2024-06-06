@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    overflow: hidden; 
+    transform: scale(0.9); /* Zoom out the content */
+    transform-origin: center; /* Centralize the scaling */
+  }
+  
+  .parent {
+    max-width: 500px;
+    margin-inline: auto;
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 0px black; 
+    /* box shawdow: [horzontal offset] [vertical offset] [blur radius] [spread radius];
+    the horizontal radius , positive value will place the shadow the right of the element while negative does the opposite
+    the vertical radius, a positive value will place it bewlo the element and a negative value does the opposite  */
+  }
+  
+  .parent div:first-child img {
+    width: 100%;
+    border-radius: 1rem;
+  }
+  
+  h2 {
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 1rem;
+    padding: 3px 8px;
+    margin: 1.5rem 0 1rem;
+    border-radius: 3px;
+  }
+  
+  h1, .first-p{
+    margin-bottom: 1rem;
+  }
+  
+  h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+  }
+  
+  .second-p {
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+ .greg-img p {
+    display: flex;
+    align-items: center;
+  }
+
+
+  span{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 10px;
+  }

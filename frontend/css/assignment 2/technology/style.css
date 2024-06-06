@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    font-family: sans-serif;
+    width: 350px;
+    margin: 1rem auto 2rem;
+    padding: 0 1rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    transform: scale(0.9); /* Zoom out the content */
+    transform-origin: center; /* Centralize the scaling */
+  }
+
+header, .content {
+    padding: 0 1.6rem;
+}
+
+header {
+    margin-bottom: 3.2rem;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+
+.sub-title {
+    font-weight: 600;
+}
+
+.sub-heading {
+    font-size: 0.8rem;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    line-height: 1.4rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    margin-bottom: 1.6rem;
+    padding: 0 1.5rem;
+    box-shadow: 0 10px 14px hsla(234, 12%, 34%, 0.2);
+    border-radius: 6px;
+    border-top: 4px solid hsl(234, 12%, 34%);
+}
+
+.card-1 {
+    border-color:hsl(180, 62%, 55%);
+}
+
+.card-2 {
+    border-color: hsl(0, 78%, 62%);
+}
+
+.card-3 {
+    border-color: hsl(34, 97%, 64%);
+}
+
+.card-4 {
+    border-color: hsl(212, 86%, 64%);
+}
+
+.tool-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 0;
+}
+
+.card-title {
+    font-size: 0.67rem;
+    color: hsl(229, 6%, 66%);
+    line-height: 1.2rem;
+    margin: 0.3rem 0 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.card-img {
+    width: 50px;
+    margin-left: auto;
+}
+
+
+@media (min-width: 1100px) {
+    body {
+        min-height: 100vh;
+        display: grid;
+        place-content: center;
+        overflow: hidden;
+    }
+
+    section {
+        margin: 0;
+        width: 1060px
+    }
+
+    header {
+        margin: 0 auto 3.5rem;
+        width: 600px;
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .sub-heading {
+        font-size: 1rem;
+    }
+
+    .content {
+        display: grid;
+        place-items: center;
+        grid-template-areas: 
+        "card-1 card-2 card-4"
+        "card-1 card-3 card-4";
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.8rem;
+        padding: 0;
+    }
+
+    .card-1 {
+        grid-area: card-1;
+    }
+
+    .card-2 {
+        grid-area: card-2;
+        margin-bottom: 0;
+    }
+
+    .card-3 {
+        grid-area: card-3;
+        margin-bottom: 0;
+    }
+
+    .card-4 {
+        grid-area: card-4;
+    }
+    
+    .card {
+        height: 220px;
+        padding: 0.1rem 1.7rem 0;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+    
+    .paragraph {
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+        margin-bottom: 2.3rem;
+    }
+}

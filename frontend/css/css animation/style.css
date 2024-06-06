@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: palevioletred;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+/* git@github.com:MabelSamuel/Web-development-Olotu-Square.git */

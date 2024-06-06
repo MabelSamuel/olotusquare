@@ -1,0 +1,36 @@
+.border1{
+    background-color: #dbf78f;
+    border: 6px dashed rgb(204, 91, 15);
+    padding: 21px 12px 21px 12px ; 
+    margin-left: 250px;
+    width: 700px;
+    text-align: left;
+}
+
+.firstline{
+    border-width: 1px;
+    border-style: outset;
+
+}
+
+.border2{
+    height: 100px;
+    width: 290px;
+    background-color: rgb(126, 226, 226);
+    padding: 19px;
+    border-top: 9px double black;
+    border-bottom: 9px double black;
+    margin-right: 50px;
+}
+.secondline{
+    border-width: 1px;
+    border-style: outset;
+}
+
+.border3{
+    background-color: rgb(226, 178, 114);
+    padding: 30px;
+    border: 10px groove black;
+    margin-left: 600px;
+    width: 500px;
+}

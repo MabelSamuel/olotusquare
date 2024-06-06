@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dimension{
+    height: 100vh;
+}
+
+.section-1{
+    background: orangered;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    color: white;
+    background: black;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 100%;
+
+}
+
+.box > p{
+    text-align: center;
+}
+
+.section-2{
+    background: powderblue;
+}

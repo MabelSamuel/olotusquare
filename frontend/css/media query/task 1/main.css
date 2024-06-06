@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    height: 100vh;
+}
+
+.box1{
+    background-color: aqua;
+}
+
+.box2{
+    background-color: blueviolet;
+}
+
+.box3{
+    background-color: violet;
+}
+
+.box4{
+    background-color: lightcoral;
+}
+
+.box5{
+    background-color: springgreen;
+}

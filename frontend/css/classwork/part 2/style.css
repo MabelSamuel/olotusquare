@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 100%;
+
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.section{
+    padding: 45px;
+    text-align: center;
+}
+.section-1{
+    background-color: yellow;
+}
+
+.section-2{
+    background-color: aqua;
+}
+
+.section-3{
+    background-color: blueviolet;
+
+}
+
+.section-4{
+    background-color: thistle;
+}
+
+/* .middle-section{
+    
+    
+} */
+
+.footer-section{
+    background-color: coral;
+}
