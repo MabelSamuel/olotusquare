@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+     background-color: mistyrose;
+    width: 80%;
+    border: 2px solid black;
+}
+
+table, th, td{
+    border-collapse: collapse;
+}
+
+th{
+    background-color: lightcoral;
+}
+
+th, td{
+    padding: 15px;
+    border-bottom: 2px solid black;
+}
+
+tr:hover{
+    background-color: plum;
+}

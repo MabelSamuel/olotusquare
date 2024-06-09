@@ -4,34 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emarid College Registration Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
     <body>
+<!-- this is the header -->
+        <header>
+         <p>Home</p>
+         <p>School Policies</p>
+         <p><a href="./school.html">Admission</a></p>
+         <p>Gallery</p>
+         <p>Info</p>
+         <p>Contact</p>
+        </header>
         <!-- This shows the heading and progress bar -->
         <div>
             <h1>Registration Form</h1>
             <p>Step 1 of 2</p>
             <progress min="0" max="100" value="50">50%</progress>
+            
             </div>
             <h2>Child Information</h2>
             <hr>
             <form>
-                <div>
-                    <h4>Surname</h4>
-                    <input type="text" required>
+                <div class="name">
+                    <label for="surname"><b>Surname</b></label>
+                    <input type="text" id="surname" name="name" required>
                 
-                    <h4>First name</h4>
-                    <input type="text" required>
+                    <label for="first-name"><b>First name</b></label>
+                    <input type="text" id="first-name" name="name" required>
                 
-                    <h4>Other names</h4>
-                    <input type="text">
-                
+                    <label for="other-name"><b>Other names</b></label>
+                    <input type="text" id="other-name" name="name">
+                </div>
                     <h4>Gender</h4>
                     <select>
                         <option>Please select one</option>
                         <option>Male</option>
                         <option>Female</option>
                     </select>
-                </div>
+                
                     <div>
                         <h4>Nationality</h4>
                         <input type="radio" name="nationality">
@@ -231,8 +242,9 @@
                 <label>Choose a file</label><br>
                 <input type="file" name="birth-certificate" accept=".pdf,.jpg,.jpeg,.png" required>
                 </div><br>
-                
-                <button>Next</button>
+                <div class="btn">
+                    <button>NEXT</button>
+            </div>
             </form>
     </body>
 </html>

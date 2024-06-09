@@ -1,8 +1,58 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
 .heading{
     text-align: center;
-    background-color: #FF0080;
+    margin-bottom: 30px;
+}
+
+.container{
+    padding: 20px;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+hr{
+    margin: 10px 0 ;
+}
+
+form h3{
+    margin: 15px 0;
+}
+
+.title{
+    margin: 10px 0;
+}
+
+#street, #street2{
+    width: 100%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    color: white;
+    background-color: blue;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: goldenrod;
+    color: black;
 }
